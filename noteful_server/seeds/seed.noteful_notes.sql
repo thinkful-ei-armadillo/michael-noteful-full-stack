@@ -1,3 +1,5 @@
+
+
 INSERT INTO noteful_notes (id, note_name, folder_id, content)
 VALUES
   (1, 'Dogs', '1', 'lorem ipsum'),
@@ -11,4 +13,4 @@ VALUES
   (9, 'Elephants', '2', 'lorem ipsum'),
   (10, 'Lions', '1','lorem ipsum');
 
- --   ALTER SEQUENCE noteful_notes RESTART WITH 11;
+ ALTER SEQUENCE noteful_notes_id_seq RESTART WITH 11;
